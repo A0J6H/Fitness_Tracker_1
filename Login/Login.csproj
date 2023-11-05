@@ -130,5 +130,62 @@
   <ItemGroup>
     <None Include="Resources\main_background.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-5-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-3-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-3-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-25-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-4-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-4-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-4-48_flipped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-3-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grey bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-4-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-3-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-3-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-25-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-4-48 %281%29_flipped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bar-chart-4-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line-32.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
