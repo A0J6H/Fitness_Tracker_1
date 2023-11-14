@@ -9,10 +9,10 @@ namespace Login
     internal class Exercise
     {
         string owner_id { get; set; }
-        string etype { get; set; }
-        string cals { get; set; }
-        string duration { get; set; }
-        string date_ {  get; set; }
+        public string etype { get; set; }
+        public string cals { get; set; }
+        public string duration { get; set; }
+        public string date_ {  get; set; }
         string description { get; set; }
 
         public Exercise(string Owner, string Etype, string Cals, string Duration, string Date_, string Description)

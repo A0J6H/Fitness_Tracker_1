@@ -17,6 +17,7 @@ namespace Login
         SqlCommand cmd;
         SqlDataReader dr;
         bool log = true;
+        public static string ID = string.Empty;
         public Login()
         {
             
@@ -25,12 +26,13 @@ namespace Login
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            ///form size 446, 654
             panel2.Location = new Point(53, 147);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            cmd = new SqlCommand("select * from users where usernam=@username and userpass =@userpass", con);
+            cmd = new SqlCommand("select * from users where usernam=@username and userpass =@userpass ", con);
             cmd.Parameters.AddWithValue("@username",txtname.Text);
             cmd.Parameters.AddWithValue("@userpass",txtpassword.Text);
 
@@ -42,6 +44,10 @@ namespace Login
             {
                 button1.ForeColor = Color.Green; 
                 label7.Visible = false;
+                while (dr.Read())
+                {
+                    ID = dr["id"].ToString();
+                }
                 Hide();
                 DashBoard next = new DashBoard();
                 next.Show();
