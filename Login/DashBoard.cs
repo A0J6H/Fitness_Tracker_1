@@ -673,11 +673,11 @@ namespace Login
             int total_ds = d1_total+d2_total+d3_total+d4_total+d5_total+d6_total+d7_total;
             if(total_ds >= goal*8)
             {
-                label22.Text = $"Well done you smashed your weekly goal {total_ds}/{goal*8} !";
+                label22.Text = $"Well done you smashed your weekly goal {total_ds}/{goal*7} !";
             }
             else if (total_ds >= goal * 7)
             {
-                label22.Text = $"Phew you just managed to hit your weekly goal! You can relax now :) ";
+                label22.Text = $"Phew you just managed to hit your weekly goal!\n                         You can relax now :) ";
             }
             else if (total_ds >= goal * 6)
             {
